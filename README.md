@@ -20,6 +20,12 @@ Le bot utilise exclusivement des **commandes slash** (full slash commands) pour 
 - Commandes slash intuitives pour une gestion simple et rapide  
 - Stockage des données dans un fichier JSON local
 
+--
+
+## Crédits & Contact
+Développé par Developpeur1337
+Pour toute question, suggestion ou aide supplémentaire, contacte moi sur Discord : @developpeur1337
+
 ---
 
 ## Installation
