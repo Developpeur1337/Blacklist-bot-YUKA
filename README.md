@@ -34,5 +34,5 @@ Pour toute question, suggestion ou aide supplémentaire, contacte moi sur Discor
 
 ```bash
 git clone https://github.com/Developpeur1337/Blacklist-bot-YUKA.git
-cd discord-blacklist-bot
+cd Blacklist-bot-YUKA
 npm install && node index.js
