@@ -33,6 +33,6 @@ Pour toute question, suggestion ou aide supplémentaire, contacte moi sur Discor
 1. Clone ce dépôt :
 
 ```bash
-git clone https://github.com/Developpeur1337/discord-blacklist-bot.git
+git clone https://github.com/Developpeur1337/Blacklist-bot-YUKA.git
 cd discord-blacklist-bot
 npm install && node index.js
