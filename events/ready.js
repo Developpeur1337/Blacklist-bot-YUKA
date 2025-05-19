@@ -23,10 +23,10 @@ module.exports = {
         console.log(`                                                         Serveurs: ${client.guilds.cache.size}`.magenta);
         console.log('                               ══════════════════════════════════════════════════════════════════════════════════════'.magenta);
     
-        const commandFiles = fs.readdirSync(`./commandes`).filter(file => file.endsWith(".js"));
-        commandFiles.forEach(commandFile => {
-            const command = require(`../commandes/${commandFile}`);
-            if (command.data) commands.push(command.data.toJSON());
+        const commandes = fs.readdirSync(`./commandes`).filter(file => file.endsWith(".js"));
+        commandes.forEach(commandFile => {
+            const commande = require(`../commandes/${commandFile}`);
+            if (commande.data) commands.push(commande.data.toJSON());
         });
 
         const rest = new REST({ version: '10' }).setToken(client.token);
