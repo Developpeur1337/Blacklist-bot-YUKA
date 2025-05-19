@@ -22,9 +22,9 @@ const client = new Client({
     ],
     presence: {
         activities: [{
-            name: `discord.gg/armada`,
+            name: `discord.gg/yuka`,
             type: ActivityType.Streaming,
-            url: "https://www.twitch.tv/assuradev"
+            url: "https://www.twitch.tv/developpeur1337"
         }],
         status: "online"
     },
