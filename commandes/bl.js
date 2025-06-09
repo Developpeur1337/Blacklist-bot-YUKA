@@ -13,7 +13,6 @@ module.exports = {
     botOwnerOnly: false,
     botOwner: true,
     wlOnly: false,
-    permBan: false,
     async executeSlash(client, interaction) {
         await interaction.deferReply({ ephemeral: true });
         const user = interaction.options.getUser("user");
