@@ -7,7 +7,13 @@ const config = require("../config");
 module.exports = {
     name: "unbl",
     description: "Retire un utilisateur de la blacklist",
+    aliases: [],
+    permissions: [],
+    guildOwnerOnly: false,
+    botOwnerOnly: false,
     botOwner: true,
+    wlOnly: false,
+    permBan: false,
     async executeSlash(client, interaction) {
         await interaction.deferReply({ ephemeral: true });
         const user = interaction.options.getUser("user");
