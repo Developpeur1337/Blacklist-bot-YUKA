@@ -6,7 +6,12 @@ const dbPath = path.join(__dirname, "../db/db.json");
 module.exports = {
     name: "blinfo",
     description: "Affiche les informations sur un utilisateur blacklisté",
+    aliases: [],
+    permissions: [],
+    guildOwnerOnly: false,
+    botOwnerOnly: false,
     botOwner: true,
+    wlOnly: false,
     async executeSlash(client, interaction) {
         await interaction.deferReply({ ephemeral: true });
         const user = interaction.options.getUser("user");
