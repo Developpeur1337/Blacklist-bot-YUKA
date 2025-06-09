@@ -7,7 +7,13 @@ const config = require("../config");
 module.exports = {
     name: "bl",
     description: "Blacklist un utilisateur et le ban du serveur",
+    aliases: [],
+    permissions: [],
+    guildOwnerOnly: false,
+    botOwnerOnly: false,
     botOwner: true,
+    wlOnly: false,
+    permBan: false,
     async executeSlash(client, interaction) {
         await interaction.deferReply({ ephemeral: true });
         const user = interaction.options.getUser("user");
